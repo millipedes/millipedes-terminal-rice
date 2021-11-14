@@ -9,10 +9,11 @@
 #include"include/startup.h"
 #include"../ascii_art/include/ascii_art.h"
 #include"../quotes/include/quotes.h"
+#include"../constants/constants.h"
 
 void start(void) {
-    art_t * art = read_file("config/ascii_art/picture_test.txt");
-    print_random_quote("config/quotes/quotes.txt");
+    art_t * art = read_file(PATH_TO_ART);
+    print_random_quote(PATH_TO_QUOTES);
     print_art(art);
     free_art(art);
 }
