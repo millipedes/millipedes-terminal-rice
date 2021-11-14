@@ -9,6 +9,8 @@ In order to accomplish this, the user needs only put the quotes (each separated 
 ```
 This code will now take in your quotes and art and generate the art (atm with a pre-determined set of colors), and a random quote from the quotes file, centered to 80 characters on your terminal.
 
+Now note, this will make the binary associated with the test quote/art, so if you would like to customize those, do so then run `sudo make install` (also if you run it multiple times it's alright, it will just recompile pointing at the new PATH's).
+
 ### Installation
 The prerequisites for this installation should only be gcc, make, and sudo (or your C compiler of choice, you would just have to edit the `CC` variable in the Makefile).  Once you have cloned the poject, you should just need to run: `sudo make install` and add the following line to your .bashrc: `terminal_startup_rice`.
 
