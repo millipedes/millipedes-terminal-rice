@@ -17,4 +17,3 @@ The prerequisites for this installation should only be gcc, make, and sudo (or y
 ### On the Radar to be Updated
 - Changing Ascii Art based off time (i.e. holiday themes in December).
 - Changing the color system to provide a better user experience.
-test
