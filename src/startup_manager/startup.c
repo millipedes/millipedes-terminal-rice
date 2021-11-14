@@ -11,8 +11,8 @@
 #include"../quotes/include/quotes.h"
 
 void start(void) {
-    art_t * art = read_file("/home/knd/.rice_terminal/src/ascii_art/include/picture_test.txt");
-    print_random_quote("/home/knd/.rice_terminal/src/quotes/include/quotes.txt");
+    art_t * art = read_file("config/ascii_art/picture_test.txt");
+    print_random_quote("config/quotes/quotes.txt");
     print_art(art);
     free_art(art);
 }
