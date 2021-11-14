@@ -25,5 +25,10 @@ debug:
 memcheck:
 	valgrind $(EXEFILE) --leak-check=full
 
+git-update:
+	git add Makefile README.md src/
+	git commit -m "update commit"
+	git push origin main
+
 clean:
 	rm $(OBJFILES)
