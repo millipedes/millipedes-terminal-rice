@@ -10,7 +10,7 @@ In order to accomplish this, the user needs only put the quotes (each separated 
 This code will now take in your quotes and art and generate the art (atm with a pre-determined set of colors), and a random quote from the quotes file, centered to 80 characters on your terminal.
 
 ### Installation
-The prerequisites for this installation should only be gcc, make, and sudo (or your C compiler of choice, you would just have to edit the `CC` variable in the Makefile).  Once you have cloned the poject, you should just need to run: `sudo make install`.
+The prerequisites for this installation should only be gcc, make, and sudo (or your C compiler of choice, you would just have to edit the `CC` variable in the Makefile).  Once you have cloned the poject, you should just need to run: `sudo make install` and add the following line to your .bashrc: `terminal_startup_rice`.
 
 ### On the Radar to be Updated
 - Changing Ascii Art based off time (i.e. holiday themes in December).

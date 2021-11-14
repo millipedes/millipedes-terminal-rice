@@ -30,5 +30,8 @@ git-update:
 	git commit -m "update commit"
 	git push origin main
 
+install: all
+	mv bin/main /usr/bin/terminal_startup_rice
+
 clean:
 	rm $(OBJFILES)

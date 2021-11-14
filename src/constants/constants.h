@@ -9,8 +9,8 @@
 #ifndef CONS_H
 #define CONS_H
 
-#define PATH_TO_QUOTES "config/quotes/quotes_test.txt"
-#define PATH_TO_ART "config/ascii_art/picture_test.txt"
+#define PATH_TO_QUOTES "/home/knd/.rice_terminal/config/quotes/quotes_test.txt"
+#define PATH_TO_ART "/home/knd/.rice_terminal/config/ascii_art/picture_test.txt"
 
 #define PALETTE_NO_ZERO "\033[0;30m" // dark blue for developer
 #define PALETTE_NO_ONE "\033[0;31m" // pink for developer
