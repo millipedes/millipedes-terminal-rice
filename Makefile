@@ -26,7 +26,7 @@ memcheck:
 	valgrind $(EXEFILE) --leak-check=full
 
 git-update:
-	git add Makefile README.md src/ config/quotes config/ascii_art/picture_test.txt
+	git add Makefile README.md src/ config/quotes/quotes_test.txt config/ascii_art/picture_test.txt
 	git commit -m "update commit"
 	git push origin main
 
