@@ -11,8 +11,6 @@ all:$(OBJFILES)
 %.o: %.c $(HFILES)%.h
 	$(CC) -c $(CFILES) $< -o $@
 
-executables:
-
 vim:
 	vim src/*.c src/include/*.h
 
