@@ -9,6 +9,6 @@
 #ifndef STARTUP_H
 #define STARTUP_H
 
-void start(void);
+void start(int file_no, char ** file_names);
 
 #endif

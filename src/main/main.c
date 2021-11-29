@@ -6,9 +6,11 @@
 * @bug None currently.
 * @todo None currently
 */
+#include<stdio.h>
 #include"../startup_manager/include/startup.h"
 
-int main(void) {
-    start();
+int main(int argc, char * argv[]) {
+	printf("%s, %s, %d\n", argv[0], argv[1], argc);
+    start(argc, argv);
     return 0;
 }

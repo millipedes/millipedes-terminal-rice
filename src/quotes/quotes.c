@@ -55,7 +55,7 @@ void print_random_quote(char * filepath) {
     srand(time(NULL));
     int quote_no = get_quote_no(filepath);
     FILE * fp = fopen(filepath, "r");
-    int random_no = rand() % quote_no;
+    int random_no = rand() % (quote_no + 1);
     int i = 0;
     char buf[MAX_QUOTE];
 
