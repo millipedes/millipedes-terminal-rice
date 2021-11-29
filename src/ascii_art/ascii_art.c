@@ -83,8 +83,7 @@ void print_art(art_t * art) {
             printf(" ");
         }
         for(int j = 0; j < fit_width_coef; j++) {
-            print_color((j % 8) + 2);
-            printf("%s", art->art_lines[i]);
+			printf("%s", art->art_lines[i]);
             for(int k = 0; k < (art->art_width - strnlen(art->art_lines[i], LINE_SIZE) + ART_BUFFER); k++) {
                 printf(" ");
             }
